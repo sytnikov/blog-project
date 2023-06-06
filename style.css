@@ -222,6 +222,9 @@ nav ul li:hover {
 /* archive section ends here */
 
 /* blog post section starts here */
+.blog-heading {
+    margin-bottom: 10rem;
+}
 .blog-post {
     width: 70%;
     display: flex;
@@ -267,7 +270,7 @@ nav ul li:hover {
 /* contact section starts here */
 #contact-section {
     background-color: #4c4c4c;
-    min-height: 95vh;
+    min-height: 75vh;
 }
 form {
     /* box-shadow: var(--box-shadow); */
@@ -395,6 +398,7 @@ form {
     }
     #bar-icon {
         display: block;
+        cursor: pointer;
         margin-bottom: 1rem;
     }
     .hidden {
